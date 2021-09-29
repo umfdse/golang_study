@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>   
+    <input type="text" name="name" id="name">
+</div>
+<div>   
+    <input type="text" name="pwd" id="pwd">
+</div>
+<div>
+    <input type="file" name="file" id="file">
+</div>
+<div>
+    <button onclick="subData()">submit</button>
+</div>
+<script src="/static/js/jquery.min.js"></script>
+<script>
+    function subData(){
+        debugger;
+        var name=$('#name').val();
+        var pwd=$('#pwd').val();
+        var file=($('#file')[0].files[0]);
+        var form=new FormData();
+        form.append("name",name)
+        form.append("pwd",pwd)
+        form.append("file",file)
+        $.ajax({
+            url:"/postData",
+            method:"POST",
+            dataType:"JSON",
+            data:form,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success:function(res){
+                console.log(res)
+            },
+            error:function(err){
+                console.log(err)
+            }
+        })
+    }
+</script>
+</body>
+</html>

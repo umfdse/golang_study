@@ -1,0 +1,400 @@
+2021/08/27 08:59:30.861 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 08:59:37.863 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 08:59:39.579 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 08:59:46.079 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 08:59:50.460 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      909.5µs|   match|[44m GET     [0m /prev   r:/prev
+2021/08/27 08:59:50.515 [D] [server.go:2887]  |  172.16.15.106|[43m 404 [0m|      303.2µs| nomatch|[44m GET     [0m /favicon.ico
+2021/08/27 08:59:51.676 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|        364µs|   match|[44m GET     [0m /prev   r:/prev
+2021/08/27 09:00:16.638 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:00:20.452 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:00:40.116 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:02:25.515 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:02:43.473 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:04:11.818 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:05:29.066 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:08:24.390 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:08:32.273 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:08:36.938 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:13:49.432 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:14:05.413 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:14:12.253 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:14:13.671 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:14:27.838 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:14:45.373 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:14:45.689 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:14:50.761 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:17:01.802 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:17:06.803 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:17:26.664 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:17:37.973 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:17:40.181 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:17:45.911 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:17:47.755 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:18:10.520 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:18:12.421 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:18:12.756 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:18:37.830 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:19:26.718 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:20:40.112 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:21:27.736 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:21:28.131 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:25:08.570 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:25:12.852 [C] [panic.go:965]  the request url is  /mysql_insert_url
+2021/08/27 09:25:12.852 [C] [panic.go:965]  Handler crashed with error <Ormer> cannot use non-ptr model struct `beego-project/models.User`
+2021/08/27 09:25:12.853 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/27 09:25:12.853 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:108
+2021/08/27 09:25:12.854 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:163
+2021/08/27 09:25:12.855 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:170
+2021/08/27 09:25:12.855 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/27 09:25:12.856 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/27 09:25:12.856 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/27 09:25:12.856 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/27 09:25:12.857 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/27 09:29:50.105 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:29:51.309 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:29:55.674 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:30:09.629 [C] [panic.go:965]  the request url is  /mysql_insert_url
+2021/08/27 09:30:09.629 [C] [panic.go:965]  Handler crashed with error <Ormer> cannot use non-ptr model struct `beego-project/models.User`
+2021/08/27 09:30:09.630 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/27 09:30:09.631 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:108
+2021/08/27 09:30:09.631 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:163
+2021/08/27 09:30:09.631 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:170
+2021/08/27 09:30:09.631 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/27 09:30:09.632 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/27 09:30:09.632 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/27 09:30:09.633 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/27 09:30:09.633 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/27 09:31:23.262 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:31:27.935 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.0996ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:35:16.054 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:35:26.567 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.9581ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:36:11.897 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:36:17.440 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     4.7935ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:09.398 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.5232ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:09.981 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.3343ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:10.174 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.9139ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:10.381 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.7659ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:10.589 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.6288ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:10.789 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.0623ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:10.990 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.1477ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:11.190 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.2413ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:11.390 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.9898ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:11.581 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.6826ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:37:22.617 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.9183ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:38:05.227 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:42:42.848 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:42:48.267 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:42:53.620 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.0981ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:42:54.811 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      984.4µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:08.091 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      910.7µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:08.316 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      681.6µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:08.539 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      994.3µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:08.723 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      526.5µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:20.092 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:43:28.550 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:43:33.821 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.2589ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:34.627 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      597.4µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:40.107 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      375.1µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:40.499 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      197.9µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:40.715 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      335.1µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:43:40.923 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      751.9µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:44:04.297 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:44:10.352 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.0332ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:44:44.000 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:44:46.077 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:45:05.599 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:45:09.023 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:45:13.969 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:45:14.540 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:45:20.162 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:45:24.435 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:34.815 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:37.143 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:37.865 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:43.017 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:43.751 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:44.679 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:45.632 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:46.516 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:47.689 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:48.813 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:47:52.858 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:48:12.658 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:48:13.489 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:48:18.439 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:48:23.232 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      585.7µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:49:35.202 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:49:42.472 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:50:00.623 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:50:04.887 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:50:11.285 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.2195ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:13.027 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      732.5µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:13.243 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      415.1µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:13.467 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|        272µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:13.675 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.0164ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:26.054 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:50:29.148 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      970.3µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:29.795 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      228.6µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:42.066 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:50:46.612 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.1109ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:52.283 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      391.5µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:50:52.483 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      442.4µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:51:17.084 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:51:26.101 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:54:31.662 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:54:34.052 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      799.8µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:54:34.635 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      872.3µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:54:34.859 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.1305ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:55:16.453 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:55:20.685 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:55:30.612 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.4185ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:55:52.616 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:55:57.044 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      860.4µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:56:26.079 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:56:33.708 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 09:56:38.996 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.0129ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:56:50.204 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      241.3µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 09:59:22.671 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:01:48.996 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:01:49.345 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:01:56.004 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.1593ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:02:35.200 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:02:38.124 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.1515ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:03:25.610 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:03:36.831 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:03:42.713 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:03:58.171 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:04:03.070 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.0694ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:04:03.749 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.5885ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:04:28.646 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.4724ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:04:43.037 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:04:45.397 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      780.3µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:04:45.674 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      669.5µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:04:45.907 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      800.6µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:04:46.106 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      587.5µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:06:58.667 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:12:45.768 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:12:51.111 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     4.9342ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:13:02.905 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     6.2571ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:13:03.104 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     5.8437ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:13:03.295 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     5.4148ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:13:03.470 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.8976ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:13:17.358 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:13:19.921 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:13:22.651 [C] [panic.go:965]  the request url is  /mysql_insert_url
+2021/08/27 10:13:22.651 [C] [panic.go:965]  Handler crashed with error <Ormer> cannot use non-ptr model struct `beego-project/models.User`
+2021/08/27 10:13:22.652 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/27 10:13:22.652 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:108
+2021/08/27 10:13:22.653 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:243
+2021/08/27 10:13:22.653 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:172
+2021/08/27 10:13:22.653 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/27 10:13:22.654 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/27 10:13:22.654 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/27 10:13:22.654 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/27 10:13:22.655 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/27 10:13:34.957 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:13:36.632 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:13:41.068 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/27 10:14:06.483 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.0839ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/27 10:14:09.106 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      627.4µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:41:21.311 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:41:59.663 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:41:59.664 [C] [asm_amd64.s:1371]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2021/08/30 08:42:50.922 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:43:00.592 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|    15.6076ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:43:00.625 [D] [server.go:2887]  |  172.16.15.105|[43m 404 [0m|      424.1µs| nomatch|[44m GET     [0m /favicon.ico
+2021/08/30 08:44:56.488 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:44:59.723 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     4.5119ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:45:01.682 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      983.1µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:45:34.023 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:45:34.930 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:45:44.495 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|        693µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:46:27.865 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:46:32.747 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      841.8µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:46:42.972 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:46:47.192 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     1.0177ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:46:47.814 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     1.0537ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:46:48.030 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      607.8µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:46:48.239 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      293.9µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:46:48.439 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      601.8µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:47:09.514 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:47:10.808 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:47:13.338 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     3.2815ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:47:50.189 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:47:53.781 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     5.8142ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:48:49.587 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:54:48.025 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:54:53.959 [C] [panic.go:965]  the request url is  /mysql_insert_url
+2021/08/30 08:54:53.960 [C] [panic.go:965]  Handler crashed with error <Ormer> cannot use non-ptr model struct `beego-project/models.User`
+2021/08/30 08:54:53.961 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 08:54:53.961 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:108
+2021/08/30 08:54:53.961 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:128
+2021/08/30 08:54:53.961 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:174
+2021/08/30 08:54:53.962 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 08:54:53.962 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 08:54:53.963 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 08:54:53.963 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 08:54:53.963 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 08:55:40.676 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:55:47.431 [C] [panic.go:965]  the request url is  /mysql_insert_url
+2021/08/30 08:55:47.431 [C] [panic.go:965]  Handler crashed with error <Ormer> cannot use non-ptr model struct `beego-project/models.User`
+2021/08/30 08:55:47.432 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 08:55:47.433 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:108
+2021/08/30 08:55:47.433 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:128
+2021/08/30 08:55:47.433 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:174
+2021/08/30 08:55:47.434 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 08:55:47.434 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 08:55:47.434 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 08:55:47.434 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 08:55:47.435 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 08:55:54.682 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:55:57.035 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:56:02.016 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      775.4µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:56:45.601 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:56:54.218 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:57:06.702 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:57:10.135 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      796.9µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:58:34.815 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:59:08.229 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|  30.5411529s|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 08:59:29.254 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:59:44.911 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:59:47.564 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:59:47.874 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 08:59:52.564 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     4.8818ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 09:01:11.605 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 09:01:14.500 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     5.3893ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 09:01:40.372 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 09:01:58.651 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 09:02:10.294 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 09:02:10.595 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 09:02:13.724 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     3.4391ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 09:03:04.995 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 09:03:30.075 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 09:03:33.443 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      4.057ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 09:03:33.968 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      241.6µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 09:03:34.159 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|      581.8µs|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 09:03:59.239 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 09:04:07.395 [D] [server.go:2887]  |  172.16.15.105|[42m 200 [0m|     3.9575ms|   match|[44m GET     [0m /mysql_insert_url   r:/mysql_insert_url
+2021/08/30 09:11:58.763 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:48:08.775 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:48:27.213 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      611.7µs|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 11:48:27.252 [D] [server.go:2887]  |  172.16.15.106|[43m 404 [0m|      949.1µs| nomatch|[44m GET     [0m /favicon.ico
+2021/08/30 11:49:00.955 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:49:04.475 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      546.4µs|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 11:49:33.872 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:49:42.745 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:49:46.147 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.3523ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 11:50:10.149 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:50:19.484 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:50:27.003 [C] [panic.go:965]  the request url is  /primal_mysql_crud_sql
+2021/08/30 11:50:27.003 [C] [panic.go:965]  Handler crashed with error <Ormer.QueryTable> table name: `default` not exists
+2021/08/30 11:50:27.004 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 11:50:27.005 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:440
+2021/08/30 11:50:27.006 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:194
+2021/08/30 11:50:27.006 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 11:50:27.006 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 11:50:27.007 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 11:50:27.007 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 11:50:27.008 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 11:50:45.007 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:50:45.355 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:50:49.730 [C] [panic.go:965]  the request url is  /primal_mysql_crud_sql
+2021/08/30 11:50:49.730 [C] [panic.go:965]  Handler crashed with error <Ormer.QueryTable> table name: `mysql` not exists
+2021/08/30 11:50:49.731 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 11:50:49.731 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:440
+2021/08/30 11:50:49.731 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:194
+2021/08/30 11:50:49.731 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 11:50:49.731 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 11:50:49.732 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 11:50:49.732 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 11:50:49.732 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 11:50:49.777 [C] [panic.go:965]  the request url is  /primal_mysql_crud_sql
+2021/08/30 11:50:49.778 [C] [panic.go:965]  Handler crashed with error <Ormer.QueryTable> table name: `mysql` not exists
+2021/08/30 11:50:49.778 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 11:50:49.778 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:440
+2021/08/30 11:50:49.779 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:194
+2021/08/30 11:50:49.779 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 11:50:49.779 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 11:50:49.779 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 11:50:49.780 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 11:50:49.780 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 11:50:49.817 [C] [panic.go:965]  the request url is  /primal_mysql_crud_sql
+2021/08/30 11:50:49.818 [C] [panic.go:965]  Handler crashed with error <Ormer.QueryTable> table name: `mysql` not exists
+2021/08/30 11:50:49.818 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 11:50:49.818 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:440
+2021/08/30 11:50:49.818 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:194
+2021/08/30 11:50:49.819 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 11:50:49.819 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 11:50:49.819 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 11:50:49.819 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 11:50:49.819 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 11:50:51.001 [C] [panic.go:965]  the request url is  /primal_mysql_crud_sql
+2021/08/30 11:50:51.002 [C] [panic.go:965]  Handler crashed with error <Ormer.QueryTable> table name: `mysql` not exists
+2021/08/30 11:50:51.003 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 11:50:51.003 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:440
+2021/08/30 11:50:51.003 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:194
+2021/08/30 11:50:51.003 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 11:50:51.004 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 11:50:51.004 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 11:50:51.005 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 11:50:51.005 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 11:50:51.225 [C] [panic.go:965]  the request url is  /primal_mysql_crud_sql
+2021/08/30 11:50:51.226 [C] [panic.go:965]  Handler crashed with error <Ormer.QueryTable> table name: `mysql` not exists
+2021/08/30 11:50:51.226 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 11:50:51.226 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:440
+2021/08/30 11:50:51.227 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:194
+2021/08/30 11:50:51.227 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 11:50:51.227 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 11:50:51.227 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 11:50:51.228 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 11:50:51.228 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 11:50:51.442 [C] [panic.go:965]  the request url is  /primal_mysql_crud_sql
+2021/08/30 11:50:51.442 [C] [panic.go:965]  Handler crashed with error <Ormer.QueryTable> table name: `mysql` not exists
+2021/08/30 11:50:51.443 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/panic.go:965
+2021/08/30 11:50:51.443 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/orm/orm.go:440
+2021/08/30 11:50:51.443 [C] [panic.go:965]  D:/GO_ITEM/src/beego-project/controllers/default.go:194
+2021/08/30 11:50:51.443 [C] [panic.go:965]  D:/GO_ITEM/pkg/mod/github.com/astaxie/beego@v1.12.3/router.go:877
+2021/08/30 11:50:51.444 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:2887
+2021/08/30 11:50:51.444 [C] [panic.go:965]  D:/MySoftware/go/src/net/http/server.go:1952
+2021/08/30 11:50:51.444 [C] [panic.go:965]  D:/MySoftware/go/src/runtime/asm_amd64.s:1371
+2021/08/30 11:50:51.445 [server.go:3137]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2021/08/30 11:51:04.748 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 11:51:08.315 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.1558ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 11:51:47.906 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      868.1µs|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:16:58.691 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:17:03.427 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      719.6µs|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:22:31.262 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:22:31.606 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:22:37.158 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.4501ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:24:57.637 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:24:57.994 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:24:59.837 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.9794ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:25:21.625 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:25:31.166 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:25:35.221 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.0188ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:26:18.317 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:26:21.893 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.8342ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:26:34.644 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     1.9002ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:27:35.845 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:27:53.912 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:28:00.254 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:28:29.005 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:28:54.201 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:28:58.167 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.5834ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:29:18.944 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:29:25.877 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.2517ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:31:59.955 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:32:01.021 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:32:06.206 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     3.1456ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:32:59.942 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:33:05.046 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|      2.841ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/30 12:35:02.411 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:35:02.758 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/30 12:35:06.183 [D] [server.go:2887]  |  172.16.15.106|[42m 200 [0m|     2.9973ms|   match|[44m GET     [0m /primal_mysql_crud_sql   r:/primal_mysql_crud_sql
+2021/08/31 15:17:46.975 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/08/31 15:19:16.462 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/09/09 10:49:36.370 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/09/09 13:55:52.015 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/09/09 13:55:59.907 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/09/09 13:56:14.524 [I] [asm_amd64.s:1371]  http server Running on http://:8080
+2021/09/09 13:56:31.344 [I] [asm_amd64.s:1371]  http server Running on http://:8080

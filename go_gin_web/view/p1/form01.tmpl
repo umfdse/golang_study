@@ -1,0 +1,37 @@
+{{ define "form01.tmpl" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <div>
+        <input type="text" name="name" id="name">
+    </div>
+    <div>
+        <input type="password" name="password" id="password">
+    </div>
+    <div><button onclick="submitFn(this)">submit</button></div>
+    <script src="/static/axios.min.js"></script>
+    <script>
+        function getEl(selector){
+              return  document.getElementById(selector);
+        }
+        function submitFn(){
+            var name=getEl("name").value;
+            var pwd=getEl("password").value;
+            var form=new FormData();
+            form.append('name',name);
+            form.append('password',pwd);
+            form.append('time',Date.now());
+            axios.post("/form_post",form,{}).then(function(res){
+                    console.log(res);
+            })
+        }
+    </script>
+</body>
+</html>
+{{ end }}

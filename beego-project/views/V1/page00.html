@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>   
+        <input type="text" name="username" id="username">
+    </div>
+    <div>   
+        <input type="text" name="pwd" id="pwd">
+    </div>
+    <div>
+        <input type="button" value="提交" onclick="subthatData()">
+    </div>
+    <script src="/static/js/jquery.min.js"></script>
+    <script>
+        function subthatData(){
+            var subObj={
+                username:$("#username").val(),
+                pwd:$("#pwd").val()
+            }
+            $.ajax({
+                url:"/postData",
+                method:"POST",
+                data:JSON.stringify(subObj),
+                dataType:"JSON",
+                success:function(res){
+                    console.log(res);
+                },
+                error:function(err){
+                    console.log(err);
+                }
+            })
+        }
+    </script>
+</body>
+</html>

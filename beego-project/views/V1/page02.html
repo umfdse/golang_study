@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="SubMitFn()">发起url为`/getMethods_fn`的Post请求</button>
+    {{.xsrfdata}}
+    <script src="/static/js/jquery.min.js"></script>
+    <script>    
+        function SubMitFn(){
+            var xsrf=$(`[name="_xsrf"]`).val();
+            var Obj={
+                name:"张三",
+                age:19,
+                _xsrf:xsrf
+            }
+            $.ajax({
+                url:"/getMethods_fn",
+                method:"POST",
+                data:JSON.stringify(Obj),
+                dataType:"JSON",
+                success:function(res){
+                    console.log(res);
+                },
+                error:function(err){
+                    console.log(err);
+                }
+            })
+        }
+    </script>
+</body>
+</html>
